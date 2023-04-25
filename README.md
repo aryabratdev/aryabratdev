@@ -2,7 +2,7 @@
 
 
 
-Here are some ideas to get you started:
+
 
 - 🔭 I’m currently working on sql
 - 🌱 I’m currently learning ds
@@ -11,3 +11,7 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
+
+
+<p align='center'>
+   <a href="https://www.linkedin.com/in/aryabrata-dev-955b93249/"><img height="30" src="https://github.com/aryabratdev/blob/main/linkedin%20(1).png?raw=true"></a>&nbsp;&nbsp;
