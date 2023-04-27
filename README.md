@@ -6,7 +6,7 @@
 
 <p align="left"> <a href="https://twitter.com/aryabratdev" target="blank"><img src="https://img.shields.io/twitter/follow/aryabratdev?logo=twitter&style=for-the-badge" alt="aryabratdev" /></a> </p>
 
-
+Talking about Personal Stuffs:
 
 - 🔭 I’m currently working on **ML**
 
