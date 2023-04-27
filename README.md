@@ -1,4 +1,3 @@
-[![MasterHead](https://i.pinimg.com/originals/8e/6e/f9/8e6ef93e1c1c5f23f823481553fc3146.gif)]
 <h1 align="center">Hi 👋, I'm Aryabrata Dev</h1>
 <h3 align="center">A passionate Data scientist from India</h3>
 <img align="right" alt="Coding" width="400" src="https://stemettes.org/zine/wp-content/uploads/sites/3/2021/12/ai-gif.gif">
