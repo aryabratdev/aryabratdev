@@ -14,6 +14,8 @@ Talking about Personal Stuffs:
 
 - 📫 How to reach me **aryabrata.dev18@gmail.com**
 
+Tableau public:
+https://public.tableau.com/app/profile/aryabrata.dev
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
