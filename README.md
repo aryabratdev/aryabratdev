@@ -6,7 +6,7 @@
 
 <p align="left"> <a href="https://twitter.com/aryabratdev" target="blank"><img src="https://img.shields.io/twitter/follow/aryabratdev?logo=twitter&style=for-the-badge" alt="aryabratdev" /></a> </p>
 
-Talking about Personal Stuffs:
+### Talking about Personal Stuffs:
 
 - 🔭 I’m currently working on **ML**
 
@@ -14,9 +14,12 @@ Talking about Personal Stuffs:
 
 - 📫 How to reach me **aryabrata.dev18@gmail.com**
 
-Tableau public :
+### Tableau public :
 
 https://public.tableau.com/app/profile/aryabrata.dev
+
+### MY PROJECTS :
+-[India-Census-Analysis using ploty and streamlit](https://github.com/aryabratdev/India-Census-Analysis-project)\[EDA,Ploty,Streamlit]
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
