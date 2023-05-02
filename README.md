@@ -10,7 +10,7 @@ Talking about Personal Stuffs:
 
 - 🔭 I’m currently working on **ML**
 
-- 🌱 I’m currently learning **Data science**
+- 🌱 I’m currently learning **Data science**<img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> 
 
 - 📫 How to reach me **aryabrata.dev18@gmail.com**
 
