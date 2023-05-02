@@ -19,7 +19,9 @@
 https://public.tableau.com/app/profile/aryabrata.dev
 
 ### MY PROJECTS :
--[India-Census-Analysis-App using ploty and streamlit](https://github.com/aryabratdev/India-Census-Analysis-project)\[Check in App](https://aryabratdev-india-census-analysis-project-population-oxvxxj.streamlit.app/)\[EDA,Ploty,Streamlit]
+-[India-Census-Analysis-App using ploty and streamlit](https://github.com/aryabratdev/India-Census-Analysis-project) \[EDA,Ploty,Streamlit]
+
+[Click Here To Check This Visualization on Streamlit cloud](https://aryabratdev-india-census-analysis-project-population-oxvxxj.streamlit.app/)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
