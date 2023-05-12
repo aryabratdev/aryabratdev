@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Aryabrata Dev</h1>
 <h3 align="center">A passionate Data scientist from India</h3>
-<img align="right" alt="Coding" width="500" src="https://www.sciencenews.org/wp-content/uploads/2023/04/040823_chatgpt_feat.gif">
+<img align="right" alt="Coding" width="500" src="https://images.axios.com/2Xmxh89GL-Nt8HfmvJvLn-5SkCQ=/0x0:1280x720/1920x1080/2018/10/19/1539983222987.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=aryabratdev&label=Profile%20views&color=0e75b6&style=flat" alt="aryabratdev" /> </p>
 
