@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Synaptiq — AI & Data Solutions</title>
+  <meta name="description" content="Synaptiq helps teams build intelligent products with AI, data engineering, and analytics." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles/main.css" />
+  <link rel="icon" href="./assets/logo.svg" type="image/svg+xml" />
+  <meta property="og:title" content="Synaptiq — AI & Data Solutions" />
+  <meta property="og:description" content="Build intelligent products faster with Synaptiq." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="./assets/logo.svg" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Synaptiq",
+    "url": "https://example.com/",
+    "logo": "./assets/logo.svg"
+  }
+  </script>
+</head>
+<body data-page="home">
+  <header class="header">
+    <div class="container nav">
+      <a href="./index.html" class="brand" aria-label="Synaptiq home">
+        <img src="./assets/logo.svg" alt="Synaptiq" class="logo" />
+        <span class="name">Synaptiq</span>
+      </a>
+      <nav>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="primary-navigation" data-nav-toggle>
+          <span aria-hidden="true">☰</span>
+        </button>
+        <div id="primary-navigation" class="nav-links">
+          <a href="./index.html" data-page-link="home">Home</a>
+          <a href="./about.html" data-page-link="about">About</a>
+          <a href="./services.html" data-page-link="services">Services</a>
+          <a href="./contact.html" class="btn btn-outline" data-page-link="contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="container hero">
+      <span class="badge">AI & Data Consultancy</span>
+      <h1>Build intelligent products faster</h1>
+      <p>Synaptiq partners with product teams to design, build, and ship real-world AI. From data pipelines to production-grade models, we turn ideas into measurable business outcomes.</p>
+      <div class="hero-cta">
+        <a href="./contact.html" class="btn btn-primary">Start a project</a>
+        <a href="./services.html" class="btn btn-outline">Explore services</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="kicker">What we do</div>
+        <h2 class="section-title">Practical AI. End‑to‑end delivery.</h2>
+        <p class="section-subtitle">We focus on shippable value—clear milestones, transparent timelines, and solutions your team can own.</p>
+
+        <div class="grid grid-3 mt-5">
+          <div class="card feature">
+            <div class="feature-icon" aria-hidden="true">🤖</div>
+            <div>
+              <h3>Applied AI & ML</h3>
+              <p>Use LLMs and classic ML where they fit best: prototypes, fine‑tuning, evaluation, and deployment with monitoring.</p>
+            </div>
+          </div>
+          <div class="card feature">
+            <div class="feature-icon" aria-hidden="true">📊</div>
+            <div>
+              <h3>Analytics & Insights</h3>
+              <p>From metrics to models—dashboards, attribution, and forecasting that support data‑driven decisions.</p>
+            </div>
+          </div>
+          <div class="card feature">
+            <div class="feature-icon" aria-hidden="true">🛠️</div>
+            <div>
+              <h3>Data Engineering</h3>
+              <p>Reliable pipelines, quality checks, and governance so your data is ready for production workloads.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="callout mt-8">
+          <div class="grid grid-2">
+            <div>
+              <h3 class="m-0">Need a roadmap in two weeks?</h3>
+              <p class="mt-2 text-muted">Book a discovery sprint. You’ll get a prioritized plan, quick wins, and a delivery approach tailored to your stack.</p>
+            </div>
+            <div class="hero-cta" style="justify-content: end; align-items: center;">
+              <a href="./contact.html" class="btn btn-primary">Book a discovery call</a>
+              <a href="./about.html" class="btn btn-outline">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="grid grid-2">
+        <a href="./index.html" class="brand">
+          <img src="./assets/logo.svg" alt="" class="logo" />
+          <span class="name">Synaptiq</span>
+        </a>
+        <div class="meta" style="text-align:right;">
+          <div>© <span id="year"></span> Synaptiq. All rights reserved.</div>
+          <div><a href="./contact.html">hello@synaptiq.com</a></div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./scripts/main.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

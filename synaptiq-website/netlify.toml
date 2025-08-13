@@ -1,0 +1,12 @@
+[build]
+  publish = "."
+
+# Security and caching headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+    Referrer-Policy = "no-referrer-when-downgrade"
+    Permissions-Policy = "interest-cohort=()"
+    Cache-Control = "public, max-age=3600"

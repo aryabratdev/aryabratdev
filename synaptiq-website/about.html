@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About — Synaptiq</title>
+  <meta name="description" content="Learn about Synaptiq’s mission and team." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles/main.css" />
+  <link rel="icon" href="./assets/logo.svg" type="image/svg+xml" />
+</head>
+<body data-page="about">
+  <header class="header">
+    <div class="container nav">
+      <a href="./index.html" class="brand" aria-label="Synaptiq home">
+        <img src="./assets/logo.svg" alt="Synaptiq" class="logo" />
+        <span class="name">Synaptiq</span>
+      </a>
+      <nav>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="primary-navigation" data-nav-toggle>
+          <span aria-hidden="true">☰</span>
+        </button>
+        <div id="primary-navigation" class="nav-links">
+          <a href="./index.html" data-page-link="home">Home</a>
+          <a href="./about.html" data-page-link="about">About</a>
+          <a href="./services.html" data-page-link="services">Services</a>
+          <a href="./contact.html" class="btn btn-outline" data-page-link="contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="container hero">
+      <span class="badge">About us</span>
+      <h1>We help teams ship real‑world AI</h1>
+      <p>We believe the best AI is practical, measurable, and maintainable. Synaptiq exists to bring that standard to every engagement.</p>
+    </section>
+
+    <section class="section">
+      <div class="container grid grid-2">
+        <div class="card">
+          <h3>Mission</h3>
+          <p>Enable organizations to confidently build with data and AI by pairing strong engineering with product thinking.</p>
+        </div>
+        <div class="card">
+          <h3>How we work</h3>
+          <p>Small senior teams, transparent roadmaps, and tight feedback loops. We aim for outcomes over artifacts.</p>
+        </div>
+        <div class="card">
+          <h3>Principles</h3>
+          <ul>
+            <li>Start simple, scale deliberately</li>
+            <li>Measure what matters</li>
+            <li>Automate the boring parts</li>
+            <li>Design for ownership</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Tooling we like</h3>
+          <p>Python, TypeScript, SQL, dbt, Airflow, Kafka, DuckDB, Postgres, Snowflake, scikit‑learn, PyTorch, vector DBs, and modern LLM stacks.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="grid grid-2">
+        <a href="./index.html" class="brand">
+          <img src="./assets/logo.svg" alt="" class="logo" />
+          <span class="name">Synaptiq</span>
+        </a>
+        <div class="meta" style="text-align:right;">
+          <div>© <span id="year"></span> Synaptiq. All rights reserved.</div>
+          <div><a href="./contact.html">hello@synaptiq.com</a></div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./scripts/main.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
