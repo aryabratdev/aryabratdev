@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Services — Synaptiq</title>
+  <meta name="description" content="Synaptiq services: applied AI, analytics, and data engineering." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles/main.css" />
+  <link rel="icon" href="./assets/logo.svg" type="image/svg+xml" />
+</head>
+<body data-page="services">
+  <header class="header">
+    <div class="container nav">
+      <a href="./index.html" class="brand" aria-label="Synaptiq home">
+        <img src="./assets/logo.svg" alt="Synaptiq" class="logo" />
+        <span class="name">Synaptiq</span>
+      </a>
+      <nav>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="primary-navigation" data-nav-toggle>
+          <span aria-hidden="true">☰</span>
+        </button>
+        <div id="primary-navigation" class="nav-links">
+          <a href="./index.html" data-page-link="home">Home</a>
+          <a href="./about.html" data-page-link="about">About</a>
+          <a href="./services.html" data-page-link="services">Services</a>
+          <a href="./contact.html" class="btn btn-outline" data-page-link="contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="container hero">
+      <span class="badge">Services</span>
+      <h1>From idea to production</h1>
+      <p>Pick what you need, or combine into an end‑to‑end engagement.</p>
+    </section>
+
+    <section class="section">
+      <div class="container grid grid-3">
+        <div class="card">
+          <h3>Discovery Sprint</h3>
+          <p class="text-muted">2 weeks</p>
+          <ul>
+            <li>Problem framing & success metrics</li>
+            <li>Data audit & feasibility</li>
+            <li>Prototype or proof‑of‑concept</li>
+            <li>Roadmap and budget</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Applied AI Delivery</h3>
+          <p class="text-muted">4–12 weeks</p>
+          <ul>
+            <li>Model selection & fine‑tuning</li>
+            <li>Evaluation, guardrails, and observability</li>
+            <li>APIs or batch workflows</li>
+            <li>Knowledge transfer and docs</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Data Platform</h3>
+          <p class="text-muted">Ongoing</p>
+          <ul>
+            <li>Ingestion and transformation</li>
+            <li>Data quality and governance</li>
+            <li>Analytics & BI enablement</li>
+            <li>Cost and performance tuning</li>
+          </ul>
+        </div>
+      </div>
+      <div class="container mt-6">
+        <div class="callout">
+          <div class="grid grid-2">
+            <div>
+              <h3 class="m-0">Not sure where to start?</h3>
+              <p class="mt-2 text-muted">We’ll design a path that fits your goals and constraints.</p>
+            </div>
+            <div class="hero-cta" style="justify-content: end; align-items: center;">
+              <a href="./contact.html" class="btn btn-primary">Talk to us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="grid grid-2">
+        <a href="./index.html" class="brand">
+          <img src="./assets/logo.svg" alt="" class="logo" />
+          <span class="name">Synaptiq</span>
+        </a>
+        <div class="meta" style="text-align:right;">
+          <div>© <span id="year"></span> Synaptiq. All rights reserved.</div>
+          <div><a href="./contact.html">hello@synaptiq.com</a></div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./scripts/main.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
